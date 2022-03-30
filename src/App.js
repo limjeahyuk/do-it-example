@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import { Component } from 'react';
+import React from 'react';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h1 className="title">두잇! 리액트 시작하기</h1>
+      // 아래는 jsx 양식
+      <div>
+        <img src="http://www.easyspub.co.kr/images/logo_footer.png" />
+        <div>안녕하세ㅛㅇ</div>
       </div>
     );
   }
 }
+
 export default App;
