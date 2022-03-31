@@ -1,14 +1,9 @@
 import React from 'react';
-
+//작성된 컴포넌트를 불러들입니다.
+import TodaysPlan from './03/PropsComponent';
 class App extends React.Component {
   render() {
-    return (
-      // 아래는 jsx 양식
-      <div>
-        <img src="http://www.easyspub.co.kr/images/logo_footer.png" />
-        <div>안녕하세ㅛㅇ</div>
-      </div>
-    );
+    return <PropsComponent name="두잇 리액트" />;
   }
 }
 
